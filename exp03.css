@@ -13,7 +13,7 @@
 /*	border:1px solid lightgray;*/
 }
 .ind{
-	width: 300px;
+	width: 298px;
 	height: 30px;
 	background-color: lightgray;
 	border-bottom: 1px solid lightgray;
@@ -30,7 +30,7 @@
 	box-sizing: border-box;
 }
 .con{
-	width:300px; 
+	width:298px; 
 	height:60px;
 	border-left: 1px solid lightgray;
 	border-right: 1px solid lightgray;
@@ -47,7 +47,7 @@
 	float: left;
 }
 .thi{
-	width: 300px;
+	width: 298px;
 	height: 120px;
 	border-bottom:1px solid lightgray;
 	border-left: 1px solid lightgray;
@@ -91,7 +91,7 @@
 	float: left;
 }
 .fo{
-	width: 300px;
+	width: 298px;
 	height:40px;
 	padding: 10px 0px 0px 0px;
 	border-bottom:1px solid lightgray;
