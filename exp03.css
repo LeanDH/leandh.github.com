@@ -21,13 +21,14 @@
 	border-left: 1px solid lightgray;
 }
 .indx{
-	width: 55px;
+	width: 56px;
 	height: 30px;
 	text-align: center;
 	line-height: 30px;
-	display: inline-block;
+/*	display: inline-block;*/
 	padding: 0px;
 	box-sizing: border-box;
+	float: left;
 }
 .con{
 	width:298px; 
@@ -104,8 +105,8 @@
 	height: 285px;
 }
 .flo1{
-	height: 190px;
-	width: 119px;
+	height: 188.6px;
+	width: 118px;
 	border-bottom:1px solid lightgray;
 	border-left: 1px solid lightgray;
 	border-right: 1px solid lightgray;
@@ -126,7 +127,7 @@
 	float: left;
 }
 .flo{
-	height: 95px;
+	height: 94px;
 	width: 59px;
 	background-color: white;
 	float: left;
@@ -148,8 +149,8 @@
 	float: left;	
 }
 .flo2{
-	height: 95px;
-	width: 59px;
+	height: 94px;
+	width: 58px;
 	background-color: white;
 	float: left;
 	border-bottom:1px solid lightgray;
