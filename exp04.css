@@ -5,6 +5,12 @@
  * @date    2017-04-06 14:27:42
  * @version $Id$
  */
+ .ui-main{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ }
  .project1{
  	width: 800px;
  	height: 600px;
@@ -133,10 +139,13 @@
 	font-size: 25px;
 	font-weight: bolder;
 	display: flex;
+	align-items: flex-end;
  }
  .ui-p2-row2-txt3-txt1:before{
  	content: '￥';
  	color:#f83b64;
+  	font-size: 20px;
+ 	top: 0%;
  }
  .ui-p2-row2-txt3-txt2{
 	width: 100px;
@@ -151,6 +160,11 @@
 	width: 145px;
 	display: flex;
 	justify-content: flex-end;
+	color: red;
+ }
+ .ui-p2-row2-txt3-txt3:after{
+	content: '件已售';
+	color:black;
  }
  .project3{
  	width: 1230px;
@@ -162,4 +176,11 @@
  	width: 390px;
  	height: 370px;
  	margin: 10px;
+ }
+  .ui-p3-row2{
+ 	width: 390px;
+ 	height: 110px;
+ 	background-color: white;
+ 	display: flex;
+ 	flex-direction: column;
  }

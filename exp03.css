@@ -15,33 +15,48 @@
 .ind{
 	width: 298px;
 	height: 30px;
-	background-color: lightgray;
-	border-bottom: 1px solid lightgray;
-	border-right: 1px solid lightgray;
-	border-left: 1px solid lightgray;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
 }
 .indx{
-	width: 56px;
+	width: 59px;
 	height: 30px;
 	text-align: center;
 	line-height: 30px;
-/*	display: inline-block;*/
 	padding: 0px;
 	box-sizing: border-box;
 	float: left;
+	font-size: 12px;
+	/*font-weight: 600;*/
+}
+.indxc{
+	width: 59px;
+	height: 31px;
+	text-align: center;
+	line-height: 30px;
+	padding: 0px;
+	box-sizing: border-box;
+	float: left;
+	font-size: 12px;
+	background-color: white;
+	font-weight: 600;
+	border-right: 1px solid #eeeeee;
+	border-bottom:1px solid white;	
 }
 .con{
 	width:298px; 
 	height:60px;
-	border-left: 1px solid lightgray;
-	border-right: 1px solid lightgray;
-	border-bottom:1px solid lightgray;
+	border-left: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+	border-bottom:1px solid #eeeeee;
 
 }
 .cont{
 	width: 250px;
-	height: 22px;
-	margin-top: 4px;
+	height: 18px;
+	margin-top: 6px;
 	margin-left: 20px;
 	margin-bottom: 2px;
 	border:1px solid black;
@@ -50,14 +65,14 @@
 .thi{
 	width: 298px;
 	height: 120px;
-	border-bottom:1px solid lightgray;
-	border-left: 1px solid lightgray;
-	border-right: 1px solid lightgray;
+	border-bottom:1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
 }
 .tip{
 	width: 60px;
 	height: 60px;
-	background-color: pink;
+	background-color: #ff4400;
 	margin: 5px 5px 5px 5px;
 	float: left;
 }
@@ -81,11 +96,13 @@
 }
 .tipc{
 	color: white;
+	font-size: 12px;
+	font-weight: bolder;
 	text-align: center;
-	line-height: 20px;
-	background: pink;
+	line-height: 25px;
+	background-color: #ff4400;
 	width: 90px;
-	height: 20px;
+	height: 25px;
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-bottom: 2px;	
@@ -95,9 +112,9 @@
 	width: 298px;
 	height:40px;
 	padding: 10px 0px 0px 0px;
-	border-bottom:1px solid lightgray;
-	border-left: 1px solid lightgray;
-	border-right: 1px solid lightgray;
+	border-bottom:1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
 }
 
 .fiont{
@@ -107,16 +124,18 @@
 .flo1{
 	height: 188.6px;
 	width: 118px;
-	border-bottom:1px solid lightgray;
-	border-left: 1px solid lightgray;
-	border-right: 1px solid lightgray;
+	border-bottom:1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
 	float: left;
+	font-size: 13px;
+	color: gray;
 }
 .flo1s{
 	height: 80px;
 	width: 60px;
 	margin: 20px 20px 20px 30px;
-	background-color: pink;
+	background-color: #ff4400;
 	float: left;	
 }
 .flo1c{
@@ -131,15 +150,17 @@
 	width: 59px;
 	background-color: white;
 	float: left;
-	border-bottom:1px solid lightgray;
-	border-right: 1px solid lightgray;
+	border-bottom:1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+	font-size: 13px;
+	color: gray;
 }
 .flos{
 	height: 40px;
 	width: 40px;
 	margin: 10px 5px 10px 10px;
 	float: left;
-	background-color: pink;
+	background-color: #ff4400;
 }
 .flosc{
 	width: 59px;
@@ -153,7 +174,9 @@
 	width: 58px;
 	background-color: white;
 	float: left;
-	border-bottom:1px solid lightgray;
-	border-right: 1px solid lightgray;
-	border-left: 1px solid lightgray;
+	border-bottom:1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	font-size: 13px;
+	color: gray;
 }
