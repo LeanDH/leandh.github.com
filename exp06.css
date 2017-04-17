@@ -58,13 +58,13 @@
 	height: 200px;
 }
 .ui-p2-menu{
-	width: 155px;
-	height: 30px;
+	width: 185px;
+	height: 25px;
 	border-left: 1px solid black;
 }
 .ui-p2-menu-box{
-	width: 50px;
-	height: 30px;
+	width: 55px;
+	height: 25px;
 	border-top:1px solid black;
 	border-right:1px solid black;
 	float: left;
