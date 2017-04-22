@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-06 14:27:42
+ * @version $Id$
+ */
+.ui-pro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+ .ui-title-route{
+	display: flex;
+	justify-content: flex-start;
+ }
+.ui-title-route-box1{
+	height: 25px;
+	width: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #248dc8;
+	border:2px solid #248dc8;
+  	border-radius:4px 4px 0 0;
+	font-size: 15px;
+	font-weight: 900;
+}
+.ui-title-route-box2{
+	height: 20px;
+	width: 20px;
+	margin: 0px 0px 5px 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background: linear-gradient(#fc7917, #fd4704);
+  	border-radius:3px;
+}
+.ui-title-blueline{
+	height: 5px;
+	width: 680px;
+	background-color: #248dc8;
+}
+.ui-title-mainbox{
+	height: 50px;
+	width: 678px;
+	background-color: #faf9f9;
+	border: 1px solid lightgray;
+}
+.ui-title-mainbox-line1{
+	height: 25px;
+	width: 680px;
+	margin: 2px 0px 0px 0px;
+	display: flex;
+}
+.ui-title-mainbox-line1-box1{
+	margin: 0px 10px 0px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ui-title-mainbox-line1-box1-time1{
+	color: #cf0000;
+	font-weight: 800;
+}
+.ui-title-mainbox-line1-box1-time2{
+	color: #cf0000;
+	font-weight: 800;
+	margin: 0px 0px 0px 3px;
+}
+.ui-title-mainbox-line1-box1-time1:after{
+	font-weight: 300;
+	content: '発 → '
+}
+.ui-title-mainbox-line1-box1-time2:after{
+	font-weight: 300;
+	content: '着'
+}
+.ui-title-mainbox-line1-box2{
+	font-weight: 800;
+	color: #cf0000;
+	margin: 0px 10px 0px 15px;
+}
+.ui-title-mainbox-line1-box2:before{
+	font-weight: 400;
+	content: '総額  ';
+	color: black;
+}
+.ui-title-mainbox-line2{
+	height: 25px;
+	width: 680px;
+	display: flex;
+}
+.ui-title-mainbox-line2-box1{
+	font-weight: 800;
+	color: #cf0000;
+	margin: 0px 10px 0px 10px;
+}
+.ui-title-mainbox-line2-box1:before{
+	font-weight: 400;
+	content: '所要时间  ';
+	color: black;
+}
+.ui-title-mainbox-line2-box2{
+	font-weight: 800;
+	margin: 0px 10px 0px 10px;
+}
+.ui-title-mainbox-line2-box2:before{
+	font-weight: 400;
+	content: '乘车时间  ';
+	color: black;
+}
+.ui-title-mainbox-line2-box3{
+	color: #cf0000;
+	font-weight: 800;	
+	margin: 0px 10px 0px 10px;
+}
+.ui-title-mainbox-line2-box3:before{
+	font-weight: 400;
+	content: '乘換  ';
+	color: black;
+}
+.ui-title-mainbox-line2-box4{
+	font-weight: 800;
+	margin: 0px 10px 0px 10px;
+}
+.ui-title-mainbox-line2-box4:before{
+	font-weight: 400;
+	content: '距离  ';
+	color: black;
+}
+.ui-title-yellowline{
+	height: 25px;
+	width:678px;
+	border: 1px solid lightgray;
+	background-color: #fffbde;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0px 0px 5px 0px;
+}
+.ui-title-yellowline-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 15px 0px 5px;
+}
+.ui-timetable-title{
+	display: flex;
+}
+.ui-title-font{
+	font-size: 13px;
+	color: #536a7e;
+	background-color: #cedce8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 1px 1px 0px; 
+}
+.ui-timetable-title-box1{
+	height: 20px;
+	width: 399px;
+}
+.ui-timetable-title-box2{
+	height: 20px;
+	width: 64px;
+}
+.ui-timetable-title-box3{
+	height: 20px;
+	width: 84px;
+}
+.ui-timetable-route{
+	height: 40px;
+	width: 678px;
+	border-left: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: flex-end;
+}
+.ui-timetable-route-box1{
+	height: 40px;
+	width: 125px;
+	margin: 0px 210px 0px 0px;
+	font-weight: 700;
+	font-size: 18px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.ui-timetable-route-box1-stop{
+	height: 15px;
+	width: 15px;
+	background:linear-gradient(#42b2e4, #0d7dd0, #42b2e4);
+	border: 1px solid white;
+	margin: 0px 5px 0px 5px;
+}
+.ui-timetable-route-box2{
+	height: 40px;
+	width: 65px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;	
+}
+.ui-timetable-route-box3{
+	height: 40px;
+	width: 215px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.ui-timetable-route-box3-font{
+	margin: 0px 5px 0px 5px;
+	font-size:13px;
+}
+.ui-timetable-txt{
+	height: 40px;
+	width: 680px;
+	border-bottom: 1px solid lightgray;
+	display: flex;
+	justify-content: flex-end;	
+}
+.ui-timetable-txt-box1{
+	height: 40px;
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.ui-timetable-txt-box1-font{
+	font-size: 13px;
+}
+.ui-timetable-txt-road{
+	height: 40px;
+	width: 6px;
+	background-color: #96c7d8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.ui-timetable-txt-road1{
+	height: 10px;
+	width: 2px;
+	background-color: white;
+	margin: 0px 0px 5px 0px;
+}
+.ui-timetable-txt-box2{
+	font-size: 13px;
+	height: 40px;
+	width: 293px;
+	display: flex;
+	align-items: center;
+	border-right: 1px solid lightgray;
+}
+.ui-car-style{
+	margin: 5px 10px 0px 10px;
+	color: #0b99e0;
+	font-weight: 800;
+}
+.ui-timetable-txt-box2-start{
+	margin: 0px 5px 0px 0px;
+	font-size: 14px;
+	text-decoration: underline;	
+	color: #0069a3;	
+}
+.ui-timetable-txt-box3{
+	font-size: 13px;
+	height: 40px;
+	width: 64px;
+	border-left: 1px solid lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.ui-timetable-txt-box4{
+	font-size: 13px;
+	height: 40px;
+	width: 84px;
+	border-left: 1px solid lightgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;			
+}
+.ui-timetable-route-time{
+	font-size: 13px;
+	height: 40px;
+	width: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 0px 0px 10px;
+}
+.ui-bluebox{
+	padding: 0.2em; 
+	border: 0.2em solid transparent; 
+	background: linear-gradient(white, white) padding-box, 
+	            repeating-linear-gradient(#1f94d0,#6db9e0 50%) 0 / 5em 5em;
+	margin: 4px 8px 0px 8px;
+
+}
+.ui-font-bigger{
+	font-weight: 800;
+}
+.ui-bluecloud-style{
+	color:#50b6e8;
+}
+.ui-whitecloud-style{
+	color: white;
+	font-size: 13px;
+}
+.ui-timetable-route2-box1{
+	height: 40px;
+	width: 125px;
+	margin: 0px 186px 0px 0px;
+	font-weight: 700;
+	font-size: 18px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.ui-car-style2{
+	margin: 3px 10px 0px 10px;
+	color: #028d5e;
+	font-weight: 800;
+}
+.ui-timetable-txt-box2-end{
+	margin: 0px 5px 0px 0px;
+	font-size: 14px;
+	color: #0069a3;	
+}
+.ui-timetable-cloud{
+	font-size: 10px;
+	margin: 3px 2px 0px 5px;
+}
