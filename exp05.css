@@ -50,6 +50,7 @@
 	width: 678px;
 	background-color: #faf9f9;
 	border: 1px solid lightgray;
+	font-size: 13px;
 }
 .ui-title-mainbox-line1{
 	height: 25px;
@@ -84,6 +85,9 @@
 	font-weight: 800;
 	color: #cf0000;
 	margin: 0px 10px 0px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .ui-title-mainbox-line1-box2:before{
 	font-weight: 400;
