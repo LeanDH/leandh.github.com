@@ -26,14 +26,14 @@
 .box{
 	height: 100px;
 	width: 1280px;
-	margin: 50px 0px 5px 0px;
+	margin: 30px 0px 5px 0px;
 	display: flex;
 	justify-content: flex-start;
 }
 .box2{
 	height: 100px;
 	width: 1280px;
-	margin: 50px 0px 5px 0px;
+	margin: 30px 0px 5px 0px;
 	display: flex;
 	justify-content: flex-end;
 }
@@ -67,7 +67,7 @@
 	color: black;
 }
 .cont:hover{
-	width: 780px;
+	width: 750px;
 	margin: 0px 80px 0px 50px;	
 }
 .cont2{
@@ -88,6 +88,9 @@
 	color: black;
 }
 .cont2:hover{
-	width: 780px;
+	width: 750px;
 	margin: 0px 30px 0px 80px;	
+}
+.blank{
+	width: 20px;
 }

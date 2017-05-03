@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-06 14:27:42
+ * @version $Id$
+ */
+.ui-row1{
+	height: 58px;
+	background-color: #06c1ae;
+	border-bottom: 2px solid #21897d;
+}
+.ui-flexcenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ui-drop-a{
+	color: white;
+	text-decoration:none;
+	font-size: 20px;
+}
+.ui-row1-col2{
+	background-color: #05a494;
+	border-radius: 5px;
+	height: 35px;
+}
+.ui-row1-col2-search{
+	color: white;
+	display: flex;
+	height: 35px;
+	align-items: center;
+	font-size: 15px;
+}
+.ui-row1-col2-search-cnt{
+	color: #3ec4b5;
+	margin-left: 10px;
+}
+.ui-row1-col3{
+	flex-direction: column;
+	font-size: 15px;
+	color: white;
+}
+.ui-row2{
+	height: 200px;
+}
+.ui-row2-containball{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100px;
+}
+.ui-row2-ball{
+	height: 0px;
+	width: 0px;
+	border-radius: 50%;
+}
+.ui-ball1{
+	border: 28px solid #ff8822;
+}
+.ui-ball2{
+	border: 28px solid #ea6644;
+}
+.ui-ball3{
+	border: 28px solid #98a5f5;
+}
+.ui-ball4{
+	border: 28px solid #66ccee;
+}
+.ui-ball5{
+	border: 28px solid #f7ba5b;
+}
+.ui-rowgray{
+	height: 20px;
+	background-color: #f0efed;
+	border-top: 2px solid #ccc;
+}
+.ui-row3{
+	height: 250px;
+	border-top: 2px solid #ccc;	
+}
+.ui-row3-col1{
+	height: 230px;
+	border-right: 2px solid #ccc;
+}
+.ui-fontgreen{
+	font-weight: 600;
+	color: #5ba718;
+}
+.ui-row3-col1-box{
+	height: 90px;
+	width: 90px;
+	background-color: #666666;
+	border: 1px solid #ccc;
+}
+.ui-row3-col2-row1{
+	height: 112px;
+	border-bottom: 2px solid #ccc;
+}
+.ui-row3-col2-row2{
+	height: 112px;	
+}
+.ui-fontorange{
+	font-weight: 600;
+	color: #ff3f0d;
+}
+.ui-row3-col2-row1-box{
+	height: 65px;
+	width: 65px;
+	background-color: #666666;
+	border: 2px solid #ccc;	
+}
+.ui-fontpurple{
+	font-weight: 600;
+	color: #f860af;	
+}
+.ui-row3-col2-row2-col1{
+	height: 55px;
+}
+.ui-row3-col2-row2-col1-box{
+	height: 45px;
+	width: 45px;
+	background-color: #666666;
+	border: 2px solid #ccc;
+}
+.ui-row3-col2-row2-col2{
+	height: 110px;
+	border-left: 2px solid #ccc;
+}
+.ui-fontyellow{
+	font-weight: 600;
+	color: #ff9929;
+}
+.ui-clockcontain{
+	display: flex;
+}
+.ui-clock{
+	color: white;
+	height: 20px;
+	width: 24px;
+	background-color: #4c4c4c;
+	border-radius: 3px;
+}
+.ui-row4{
+	height: 80px;
+	border-top: 2px solid #ccc;
+}
+.ui-row4-col1{
+	height: 80px;
+	border-right: 2px solid #ccc;
+}
+.ui-row4-col2{
+	height: 80px;
+}
+.ui-row5{
+	height: 460px;
+	border-top: 2px solid #ccc;
+/*	padding: 0px 15px 0px 15px;*/
+}
+.ui-row5-title{
+	display: flex;
+	align-items: center;
+	height: 45px;
+	padding: 0px;
+}
+.ui-row5-main{
+	height: 100px;
+	border-top: 2px solid #ccc;
+}
+.ui-row5-box{
+	height: 80px;
+	width: 85px;
+	background-color: #666666;
+	border: 2px solid #ccc;
+	margin: 0px -15px 0px -15px;
+}
+.ui-row5-main-col1{
+	height: 100px;
+}
+.ui-row5-box-front{
+	position: relative;
+	top: 12%;
+	left: -24%;
+	transform: rotate(-45deg);
+}
+.ui-row5-box-trape{
+	color: white;
+	width: 80px;
+	height: 0px;
+	border-bottom: 20px solid #06c1ae;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	margin:0px;
+}
+.ui-row5-box-trape:before{
+	content: '免预约';
+	color: white;
+	position: absolute;
+	font-size: 10px;
+	top: 5px;
+	left: 25px;
+}
+.ui-row5-money{
+	display: flex;
+	align-items: center;
+	height: 30px;
+	margin: 0px -15px 0px 0px;
+}
+.ui-fontblue{
+	font-size: 25px;
+	font-weight: 600;
+	color: #06c1ae;
+}
+.ui-fontblue:after{
+	content: '元';
+	font-size: 16px;
+	font-weight: 400;
+	color: #06c1ae;
+}
+.ui-row5-cheap{
+	color: #ff9900;
+	font-size: 12px;
+	height: 20px;
+	width: 55px;
+	border: 1px solid #ff9900;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+.ui-row5-sale{
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin: 0px -15px 0px -15px;
+}
+.ui-row5-sale:before{
+	content: '已售';
+}
+.ui-row5-cheap2{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	height: 20px;
+	width: 200px;
+}
+.ui-row6
+{
+	height: 40px;
+	background-color: #a0c5e8;
+	color: #06c1ae;
+	font-size: 20px;
+	font-weight:600;
+}
+.ui-fontsmallblue{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: #06c1ae;
+	font-weight:600;
+}
